@@ -5,8 +5,8 @@
 #include "GravityTDS.h"
 
 const int pHSensorPin = A2;        
-const int pHtujuh = 2.6;
-const int pHstep = 2.7; 
+const float pHtujuh = 2.6;
+const float pHstep = 2.7; 
 const int TDSSensorPin = A0;        
 const float VREF = 5.0;     
 const int turbiditySensorPin = A4;  
